@@ -591,8 +591,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 155;
-$searchCriteriaCurrentPage = 155;
+$searchCriteriaPageSize = 86;
+$searchCriteriaCurrentPage = 86;
 
 $result = $eavAttributeSetRepositoryV1->getEavAttributeSetRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -629,7 +629,7 @@ function getEavAttributeSetRepositoryV1GetGet($attributeSetId)
 #### Example Usage
 
 ```php
-$attributeSetId = 155;
+$attributeSetId = 86;
 
 $result = $eavAttributeSetRepositoryV1->getEavAttributeSetRepositoryV1GetGet($attributeSetId);
 
@@ -710,7 +710,7 @@ function deleteEavAttributeSetRepositoryV1DeleteByIdDelete($attributeSetId)
 #### Example Usage
 
 ```php
-$attributeSetId = 155;
+$attributeSetId = 86;
 
 $result = $eavAttributeSetRepositoryV1->deleteEavAttributeSetRepositoryV1DeleteByIdDelete($attributeSetId);
 
@@ -810,7 +810,7 @@ function getCustomerGroupRepositoryV1GetByIdGet($id)
 #### Example Usage
 
 ```php
-$id = 155;
+$id = 86;
 
 $result = $customerGroupRepositoryV1->getCustomerGroupRepositoryV1GetByIdGet($id);
 
@@ -892,7 +892,7 @@ function deleteCustomerGroupRepositoryV1DeleteByIdDelete($id)
 #### Example Usage
 
 ```php
-$id = 155;
+$id = 86;
 
 $result = $customerGroupRepositoryV1->deleteCustomerGroupRepositoryV1DeleteByIdDelete($id);
 
@@ -949,8 +949,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 155;
-$searchCriteriaCurrentPage = 155;
+$searchCriteriaPageSize = 86;
+$searchCriteriaCurrentPage = 86;
 
 $result = $customerGroupRepositoryV1->getCustomerGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -1039,7 +1039,7 @@ function getCustomerGroupManagementV1GetDefaultGroupGet($storeId)
 #### Example Usage
 
 ```php
-$storeId = 155;
+$storeId = 86;
 
 $result = $customerGroupManagementV1->getCustomerGroupManagementV1GetDefaultGroupGet($storeId);
 
@@ -1078,7 +1078,7 @@ function getCustomerGroupManagementV1GetDefaultGroupGet1($storeId = null)
 #### Example Usage
 
 ```php
-$storeId = 155;
+$storeId = 249;
 
 $result = $customerGroupManagementV1->getCustomerGroupManagementV1GetDefaultGroupGet1($storeId);
 
@@ -1117,7 +1117,7 @@ function getCustomerGroupManagementV1IsReadonlyGet($id)
 #### Example Usage
 
 ```php
-$id = 155;
+$id = 249;
 
 $result = $customerGroupManagementV1->getCustomerGroupManagementV1IsReadonlyGet($id);
 
@@ -1168,7 +1168,7 @@ function updateCustomerCustomerGroupConfigV1SetDefaultCustomerGroupPut($id)
 #### Example Usage
 
 ```php
-$id = 155;
+$id = 249;
 
 $result = $customerCustomerGroupConfigV1->updateCustomerCustomerGroupConfigV1SetDefaultCustomerGroupPut($id);
 
@@ -1531,7 +1531,7 @@ function getCustomerCustomerRepositoryV1GetByIdGet($customerId)
 #### Example Usage
 
 ```php
-$customerId = 155;
+$customerId = 249;
 
 $result = $customerCustomerRepositoryV1->getCustomerCustomerRepositoryV1GetByIdGet($customerId);
 
@@ -1613,7 +1613,7 @@ function deleteCustomerCustomerRepositoryV1DeleteByIdDelete($customerId)
 #### Example Usage
 
 ```php
-$customerId = 155;
+$customerId = 249;
 
 $result = $customerCustomerRepositoryV1->deleteCustomerCustomerRepositoryV1DeleteByIdDelete($customerId);
 
@@ -1739,8 +1739,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 155;
-$searchCriteriaCurrentPage = 155;
+$searchCriteriaPageSize = 249;
+$searchCriteriaCurrentPage = 249;
 
 $result = $customerCustomerRepositoryV1->getCustomerCustomerRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -1948,7 +1948,7 @@ function getCustomerAccountManagementV1ValidateResetPasswordLinkTokenGet(
 #### Example Usage
 
 ```php
-$customerId = 63;
+$customerId = 249;
 $resetPasswordLinkToken = 'resetPasswordLinkToken';
 
 $result = $customerAccountManagementV1->getCustomerAccountManagementV1ValidateResetPasswordLinkTokenGet($customerId, $resetPasswordLinkToken);
@@ -2061,7 +2061,7 @@ function getCustomerAccountManagementV1GetConfirmationStatusGet($customerId)
 #### Example Usage
 
 ```php
-$customerId = 63;
+$customerId = 249;
 
 $result = $customerAccountManagementV1->getCustomerAccountManagementV1GetConfirmationStatusGet($customerId);
 
@@ -2175,7 +2175,7 @@ function getCustomerAccountManagementV1IsReadonlyGet($customerId)
 #### Example Usage
 
 ```php
-$customerId = 63;
+$customerId = 249;
 
 $result = $customerAccountManagementV1->getCustomerAccountManagementV1IsReadonlyGet($customerId);
 
@@ -2281,7 +2281,7 @@ function getCustomerAccountManagementV1GetDefaultBillingAddressGet1($customerId)
 #### Example Usage
 
 ```php
-$customerId = 63;
+$customerId = 249;
 
 $result = $customerAccountManagementV1->getCustomerAccountManagementV1GetDefaultBillingAddressGet1($customerId);
 
@@ -2350,7 +2350,7 @@ function getCustomerAccountManagementV1GetDefaultShippingAddressGet1($customerId
 #### Example Usage
 
 ```php
-$customerId = 63;
+$customerId = 249;
 
 $result = $customerAccountManagementV1->getCustomerAccountManagementV1GetDefaultShippingAddressGet1($customerId);
 
@@ -2401,7 +2401,7 @@ function getCustomerAddressRepositoryV1GetByIdGet($addressId)
 #### Example Usage
 
 ```php
-$addressId = 63;
+$addressId = 36;
 
 $result = $customerAddressRepositoryV1->getCustomerAddressRepositoryV1GetByIdGet($addressId);
 
@@ -2439,7 +2439,7 @@ function deleteCustomerAddressRepositoryV1DeleteByIdDelete($addressId)
 #### Example Usage
 
 ```php
-$addressId = 63;
+$addressId = 36;
 
 $result = $customerAddressRepositoryV1->deleteCustomerAddressRepositoryV1DeleteByIdDelete($addressId);
 
@@ -2490,7 +2490,7 @@ function getCmsPageRepositoryV1GetByIdGet($pageId)
 #### Example Usage
 
 ```php
-$pageId = 63;
+$pageId = 36;
 
 $result = $cmsPageRepositoryV1->getCmsPageRepositoryV1GetByIdGet($pageId);
 
@@ -2528,7 +2528,7 @@ function deleteCmsPageRepositoryV1DeleteByIdDelete($pageId)
 #### Example Usage
 
 ```php
-$pageId = 63;
+$pageId = 36;
 
 $result = $cmsPageRepositoryV1->deleteCmsPageRepositoryV1DeleteByIdDelete($pageId);
 
@@ -2585,8 +2585,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 63;
-$searchCriteriaCurrentPage = 63;
+$searchCriteriaPageSize = 36;
+$searchCriteriaCurrentPage = 36;
 
 $result = $cmsPageRepositoryV1->getCmsPageRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -2716,7 +2716,7 @@ function getCmsBlockRepositoryV1GetByIdGet($blockId)
 #### Example Usage
 
 ```php
-$blockId = 63;
+$blockId = 36;
 
 $result = $cmsBlockRepositoryV1->getCmsBlockRepositoryV1GetByIdGet($blockId);
 
@@ -2754,7 +2754,7 @@ function deleteCmsBlockRepositoryV1DeleteByIdDelete($blockId)
 #### Example Usage
 
 ```php
-$blockId = 63;
+$blockId = 36;
 
 $result = $cmsBlockRepositoryV1->deleteCmsBlockRepositoryV1DeleteByIdDelete($blockId);
 
@@ -2811,8 +2811,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 63;
-$searchCriteriaCurrentPage = 63;
+$searchCriteriaPageSize = 36;
+$searchCriteriaCurrentPage = 36;
 
 $result = $cmsBlockRepositoryV1->getCmsBlockRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -2960,8 +2960,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 105;
-$searchCriteriaCurrentPage = 105;
+$searchCriteriaPageSize = 200;
+$searchCriteriaCurrentPage = 200;
 
 $result = $catalogProductRepositoryV1->getCatalogProductRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -3044,9 +3044,9 @@ function getCatalogProductRepositoryV1GetGet(
 
 ```php
 $sku = 'sku';
-$editMode = false;
-$storeId = 105;
-$forceReload = false;
+$editMode = true;
+$storeId = 200;
+$forceReload = true;
 
 $result = $catalogProductRepositoryV1->getCatalogProductRepositoryV1GetGet($sku, $editMode, $storeId, $forceReload);
 
@@ -3352,8 +3352,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 13;
-$searchCriteriaCurrentPage = 13;
+$searchCriteriaPageSize = 200;
+$searchCriteriaCurrentPage = 200;
 
 $result = $catalogProductAttributeRepositoryV1->getCatalogProductAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -3495,8 +3495,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 13;
-$searchCriteriaCurrentPage = 13;
+$searchCriteriaPageSize = 200;
+$searchCriteriaCurrentPage = 200;
 
 $result = $catalogCategoryAttributeRepositoryV1->getCatalogCategoryAttributeRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -3653,8 +3653,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 13;
-$searchCriteriaCurrentPage = 13;
+$searchCriteriaPageSize = 200;
+$searchCriteriaCurrentPage = 200;
 
 $result = $catalogAttributeSetRepositoryV1->getCatalogAttributeSetRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -3691,7 +3691,7 @@ function getCatalogAttributeSetRepositoryV1GetGet($attributeSetId)
 #### Example Usage
 
 ```php
-$attributeSetId = 13;
+$attributeSetId = 200;
 
 $result = $catalogAttributeSetRepositoryV1->getCatalogAttributeSetRepositoryV1GetGet($attributeSetId);
 
@@ -3772,7 +3772,7 @@ function deleteCatalogAttributeSetRepositoryV1DeleteByIdDelete($attributeSetId)
 #### Example Usage
 
 ```php
-$attributeSetId = 13;
+$attributeSetId = 200;
 
 $result = $catalogAttributeSetRepositoryV1->deleteCatalogAttributeSetRepositoryV1DeleteByIdDelete($attributeSetId);
 
@@ -4020,8 +4020,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 13;
-$searchCriteriaCurrentPage = 13;
+$searchCriteriaPageSize = 200;
+$searchCriteriaCurrentPage = 108;
 
 $result = $catalogProductAttributeGroupRepositoryV1->getCatalogProductAttributeGroupRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -4137,7 +4137,7 @@ function deleteCatalogProductAttributeGroupRepositoryV1DeleteByIdDelete($groupId
 #### Example Usage
 
 ```php
-$groupId = 13;
+$groupId = 108;
 
 $result = $catalogProductAttributeGroupRepositoryV1->deleteCatalogProductAttributeGroupRepositoryV1DeleteByIdDelete($groupId);
 
@@ -4373,7 +4373,7 @@ function getCatalogProductAttributeMediaGalleryManagementV1GetGet(
 
 ```php
 $sku = 'sku';
-$entryId = 177;
+$entryId = 108;
 
 $result = $catalogProductAttributeMediaGalleryManagementV1->getCatalogProductAttributeMediaGalleryManagementV1GetGet($sku, $entryId);
 
@@ -4460,7 +4460,7 @@ function deleteCatalogProductAttributeMediaGalleryManagementV1RemoveDelete(
 
 ```php
 $sku = 'sku';
-$entryId = 177;
+$entryId = 108;
 
 $result = $catalogProductAttributeMediaGalleryManagementV1->deleteCatalogProductAttributeMediaGalleryManagementV1RemoveDelete($sku, $entryId);
 
@@ -4640,8 +4640,8 @@ function createCatalogProductTierPriceManagementV1AddPost(
 ```php
 $sku = 'sku';
 $customerGroupId = 'customerGroupId';
-$price = 177.345554745917;
-$qty = 177.345554745917;
+$price = 108.513221267384;
+$qty = 108.513221267384;
 
 $result = $catalogProductTierPriceManagementV1->createCatalogProductTierPriceManagementV1AddPost($sku, $customerGroupId, $price, $qty);
 
@@ -4686,7 +4686,7 @@ function deleteCatalogProductTierPriceManagementV1RemoveDelete(
 ```php
 $sku = 'sku';
 $customerGroupId = 'customerGroupId';
-$qty = 177.345554745917;
+$qty = 108.513221267384;
 
 $result = $catalogProductTierPriceManagementV1->deleteCatalogProductTierPriceManagementV1RemoveDelete($sku, $customerGroupId, $qty);
 
@@ -5238,8 +5238,8 @@ function getCatalogCategoryRepositoryV1GetGet(
 #### Example Usage
 
 ```php
-$categoryId = 219;
-$storeId = 219;
+$categoryId = 150;
+$storeId = 150;
 
 $result = $catalogCategoryRepositoryV1->getCatalogCategoryRepositoryV1GetGet($categoryId, $storeId);
 
@@ -5277,7 +5277,7 @@ function deleteCatalogCategoryRepositoryV1DeleteByIdentifierDelete($categoryId)
 #### Example Usage
 
 ```php
-$categoryId = 219;
+$categoryId = 150;
 
 $result = $catalogCategoryRepositoryV1->deleteCatalogCategoryRepositoryV1DeleteByIdentifierDelete($categoryId);
 
@@ -5410,8 +5410,8 @@ function getCatalogCategoryManagementV1GetTreeGet(
 #### Example Usage
 
 ```php
-$rootCategoryId = 219;
-$depth = 219;
+$rootCategoryId = 150;
+$depth = 150;
 
 $result = $catalogCategoryManagementV1->getCatalogCategoryManagementV1GetTreeGet($rootCategoryId, $depth);
 
@@ -5452,7 +5452,7 @@ function updateCatalogCategoryManagementV1MovePut(
 #### Example Usage
 
 ```php
-$categoryId = 219;
+$categoryId = 150;
 $catalogCategoryManagementV1MovePutBody = new CatalogCategoryManagementV1MovePutBody();
 
 $result = $catalogCategoryManagementV1->updateCatalogCategoryManagementV1MovePut($categoryId, $catalogCategoryManagementV1MovePutBody);
@@ -5522,8 +5522,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 219;
-$searchCriteriaCurrentPage = 219;
+$searchCriteriaPageSize = 150;
+$searchCriteriaCurrentPage = 150;
 
 $result = $catalogCategoryListV1->getCatalogCategoryListV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -5653,7 +5653,7 @@ function getCatalogProductCustomOptionRepositoryV1GetGet(
 
 ```php
 $sku = 'sku';
-$optionId = 219;
+$optionId = 150;
 
 $result = $catalogProductCustomOptionRepositoryV1->getCatalogProductCustomOptionRepositoryV1GetGet($sku, $optionId);
 
@@ -5694,7 +5694,7 @@ function deleteCatalogProductCustomOptionRepositoryV1DeleteByIdentifierDelete(
 
 ```php
 $sku = 'sku';
-$optionId = 219;
+$optionId = 150;
 
 $result = $catalogProductCustomOptionRepositoryV1->deleteCatalogProductCustomOptionRepositoryV1DeleteByIdentifierDelete($sku, $optionId);
 
@@ -6092,7 +6092,7 @@ function getCatalogCategoryLinkManagementV1GetAssignedProductsGet($categoryId)
 #### Example Usage
 
 ```php
-$categoryId = 127;
+$categoryId = 58;
 
 $result = $catalogCategoryLinkManagementV1->getCatalogCategoryLinkManagementV1GetAssignedProductsGet($categoryId);
 
@@ -6367,7 +6367,7 @@ function deleteCatalogProductWebsiteLinkRepositoryV1DeleteByIdDelete(
 
 ```php
 $sku = 'sku';
-$websiteId = 127;
+$websiteId = 58;
 
 $result = $catalogProductWebsiteLinkRepositoryV1->deleteCatalogProductWebsiteLinkRepositoryV1DeleteByIdDelete($sku, $websiteId);
 
@@ -6434,15 +6434,15 @@ function getCatalogProductRenderListV1GetListGet(
 #### Example Usage
 
 ```php
-$storeId = 127;
+$storeId = 58;
 $currencyCode = 'currencyCode';
 $searchCriteriaFilterGroupsFiltersField = 'searchCriteria[filterGroups][][filters][][field]';
 $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filters][][value]';
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 127;
-$searchCriteriaCurrentPage = 127;
+$searchCriteriaPageSize = 58;
+$searchCriteriaCurrentPage = 58;
 
 $result = $catalogProductRenderListV1->getCatalogProductRenderListV1GetListGet($storeId, $currencyCode, $searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -6494,7 +6494,7 @@ function getCatalogInventoryStockRegistryV1GetStockItemBySkuGet(
 
 ```php
 $productSku = 'productSku';
-$scopeId = 127;
+$scopeId = 58;
 
 $result = $catalogInventoryStockRegistryV1->getCatalogInventoryStockRegistryV1GetStockItemBySkuGet($productSku, $scopeId);
 
@@ -6584,10 +6584,10 @@ function getCatalogInventoryStockRegistryV1GetLowStockItemsGet(
 #### Example Usage
 
 ```php
-$scopeId = 127;
-$qty = 127.573446080821;
-$currentPage = 127;
-$pageSize = 127;
+$scopeId = 222;
+$qty = 222.245830710626;
+$currentPage = 222;
+$pageSize = 222;
 
 $result = $catalogInventoryStockRegistryV1->getCatalogInventoryStockRegistryV1GetLowStockItemsGet($scopeId, $qty, $currentPage, $pageSize);
 
@@ -6628,7 +6628,7 @@ function getCatalogInventoryStockRegistryV1GetStockStatusBySkuGet(
 
 ```php
 $productSku = 'productSku';
-$scopeId = 127;
+$scopeId = 222;
 
 $result = $catalogInventoryStockRegistryV1->getCatalogInventoryStockRegistryV1GetStockStatusBySkuGet($productSku, $scopeId);
 
@@ -6718,7 +6718,7 @@ function getQuoteCartRepositoryV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 127;
+$cartId = 222;
 
 $result = $quoteCartRepositoryV1->getQuoteCartRepositoryV1GetGet($cartId);
 
@@ -6774,8 +6774,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 127;
-$searchCriteriaCurrentPage = 127;
+$searchCriteriaPageSize = 222;
+$searchCriteriaCurrentPage = 222;
 
 $result = $quoteCartRepositoryV1->getQuoteCartRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -6864,7 +6864,7 @@ function updateQuoteCartManagementV1AssignCustomerPut(
 #### Example Usage
 
 ```php
-$cartId = 36;
+$cartId = 222;
 $quoteCartManagementV1AssignCustomerPutBody = new QuoteCartManagementV1AssignCustomerPutBody();
 
 $result = $quoteCartManagementV1->updateQuoteCartManagementV1AssignCustomerPut($cartId, $quoteCartManagementV1AssignCustomerPutBody);
@@ -6989,7 +6989,7 @@ function createQuoteCartManagementV1CreateEmptyCartForCustomerPost1($customerId)
 #### Example Usage
 
 ```php
-$customerId = 36;
+$customerId = 222;
 
 $result = $quoteCartManagementV1->createQuoteCartManagementV1CreateEmptyCartForCustomerPost1($customerId);
 
@@ -7068,7 +7068,7 @@ function updateQuoteCartManagementV1PlaceOrderPut1(
 #### Example Usage
 
 ```php
-$cartId = 36;
+$cartId = 222;
 $quoteCartManagementV1PlaceOrderPutBody = new QuoteCartManagementV1PlaceOrderPutBody();
 
 $result = $quoteCartManagementV1->updateQuoteCartManagementV1PlaceOrderPut1($cartId, $quoteCartManagementV1PlaceOrderPutBody);
@@ -7290,7 +7290,7 @@ function getQuoteShippingMethodManagementV1GetListGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 36;
+$cartId = 222;
 
 $result = $quoteShippingMethodManagementV1->getQuoteShippingMethodManagementV1GetListGet($cartId);
 
@@ -7331,7 +7331,7 @@ function createQuoteShippingMethodManagementV1EstimateByAddressIdPost(
 #### Example Usage
 
 ```php
-$cartId = 36;
+$cartId = 222;
 $quoteShippingMethodManagementV1EstimateByAddressIdPostBody = new QuoteShippingMethodManagementV1EstimateByAddressIdPostBody();
 
 $result = $quoteShippingMethodManagementV1->createQuoteShippingMethodManagementV1EstimateByAddressIdPost($cartId, $quoteShippingMethodManagementV1EstimateByAddressIdPostBody);
@@ -7650,7 +7650,7 @@ function getQuoteCartItemRepositoryV1GetListGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 36;
+$cartId = 8;
 
 $result = $quoteCartItemRepositoryV1->getQuoteCartItemRepositoryV1GetListGet($cartId);
 
@@ -7778,8 +7778,8 @@ function deleteQuoteCartItemRepositoryV1DeleteByIdDelete(
 #### Example Usage
 
 ```php
-$cartId = 77;
-$itemId = 77;
+$cartId = 8;
+$itemId = 8;
 
 $result = $quoteCartItemRepositoryV1->deleteQuoteCartItemRepositoryV1DeleteByIdDelete($cartId, $itemId);
 
@@ -7926,7 +7926,7 @@ function deleteQuoteCartItemRepositoryV1DeleteByIdDelete1($itemId)
 #### Example Usage
 
 ```php
-$itemId = 77;
+$itemId = 8;
 
 $result = $quoteCartItemRepositoryV1->deleteQuoteCartItemRepositoryV1DeleteByIdDelete1($itemId);
 
@@ -8102,7 +8102,7 @@ function deleteQuoteGuestCartItemRepositoryV1DeleteByIdDelete(
 
 ```php
 $cartId = 'cartId';
-$itemId = 77;
+$itemId = 8;
 
 $result = $quoteGuestCartItemRepositoryV1->deleteQuoteGuestCartItemRepositoryV1DeleteByIdDelete($cartId, $itemId);
 
@@ -8151,7 +8151,7 @@ function getQuotePaymentMethodManagementV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 77;
+$cartId = 8;
 
 $result = $quotePaymentMethodManagementV1->getQuotePaymentMethodManagementV1GetGet($cartId);
 
@@ -8192,7 +8192,7 @@ function updateQuotePaymentMethodManagementV1SetPut(
 #### Example Usage
 
 ```php
-$cartId = 77;
+$cartId = 8;
 $quotePaymentMethodManagementV1SetPutBody = new QuotePaymentMethodManagementV1SetPutBody();
 
 $result = $quotePaymentMethodManagementV1->updateQuotePaymentMethodManagementV1SetPut($cartId, $quotePaymentMethodManagementV1SetPutBody);
@@ -8231,7 +8231,7 @@ function getQuotePaymentMethodManagementV1GetListGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 77;
+$cartId = 8;
 
 $result = $quotePaymentMethodManagementV1->getQuotePaymentMethodManagementV1GetListGet($cartId);
 
@@ -8504,7 +8504,7 @@ function getQuoteBillingAddressManagementV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 77;
+$cartId = 8;
 
 $result = $quoteBillingAddressManagementV1->getQuoteBillingAddressManagementV1GetGet($cartId);
 
@@ -8545,7 +8545,7 @@ function createQuoteBillingAddressManagementV1AssignPost(
 #### Example Usage
 
 ```php
-$cartId = 77;
+$cartId = 172;
 $quoteBillingAddressManagementV1AssignPostBody = new QuoteBillingAddressManagementV1AssignPostBody();
 
 $result = $quoteBillingAddressManagementV1->createQuoteBillingAddressManagementV1AssignPost($cartId, $quoteBillingAddressManagementV1AssignPostBody);
@@ -8753,7 +8753,7 @@ function getQuoteCouponManagementV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 241;
+$cartId = 172;
 
 $result = $quoteCouponManagementV1->getQuoteCouponManagementV1GetGet($cartId);
 
@@ -8791,7 +8791,7 @@ function deleteQuoteCouponManagementV1RemoveDelete($cartId)
 #### Example Usage
 
 ```php
-$cartId = 241;
+$cartId = 172;
 
 $result = $quoteCouponManagementV1->deleteQuoteCouponManagementV1RemoveDelete($cartId);
 
@@ -8832,7 +8832,7 @@ function updateQuoteCouponManagementV1SetPut(
 #### Example Usage
 
 ```php
-$cartId = 241;
+$cartId = 172;
 $couponCode = 'couponCode';
 
 $result = $quoteCouponManagementV1->updateQuoteCouponManagementV1SetPut($cartId, $couponCode);
@@ -9106,7 +9106,7 @@ function getQuoteCartTotalRepositoryV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 241;
+$cartId = 172;
 
 $result = $quoteCartTotalRepositoryV1->getQuoteCartTotalRepositoryV1GetGet($cartId);
 
@@ -9356,8 +9356,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 241;
-$searchCriteriaCurrentPage = 241;
+$searchCriteriaPageSize = 214;
+$searchCriteriaCurrentPage = 214;
 
 $result = $searchV1->searchV1SearchGet($searchCriteriaRequestName, $searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -9405,7 +9405,7 @@ function getSalesOrderRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderRepositoryV1->getSalesOrderRepositoryV1GetGet($id);
 
@@ -9460,8 +9460,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 241;
-$searchCriteriaCurrentPage = 241;
+$searchCriteriaPageSize = 214;
+$searchCriteriaCurrentPage = 214;
 
 $result = $salesOrderRepositoryV1->getSalesOrderRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -9584,7 +9584,7 @@ function getSalesOrderManagementV1GetStatusGet($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->getSalesOrderManagementV1GetStatusGet($id);
 
@@ -9621,7 +9621,7 @@ function createSalesOrderManagementV1CancelPost($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->createSalesOrderManagementV1CancelPost($id);
 
@@ -9658,7 +9658,7 @@ function createSalesOrderManagementV1NotifyPost($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->createSalesOrderManagementV1NotifyPost($id);
 
@@ -9695,7 +9695,7 @@ function createSalesOrderManagementV1HoldPost($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->createSalesOrderManagementV1HoldPost($id);
 
@@ -9732,7 +9732,7 @@ function createSalesOrderManagementV1UnHoldPost($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->createSalesOrderManagementV1UnHoldPost($id);
 
@@ -9769,7 +9769,7 @@ function getSalesOrderManagementV1GetCommentsListGet($id)
 #### Example Usage
 
 ```php
-$id = 241;
+$id = 214;
 
 $result = $salesOrderManagementV1->getSalesOrderManagementV1GetCommentsListGet($id);
 
@@ -9809,7 +9809,7 @@ function createSalesOrderManagementV1AddCommentPost(
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 $salesOrderManagementV1AddCommentPostBody = new SalesOrderManagementV1AddCommentPostBody();
 
 $result = $salesOrderManagementV1->createSalesOrderManagementV1AddCommentPost($id, $salesOrderManagementV1AddCommentPostBody);
@@ -9912,7 +9912,7 @@ function getSalesOrderItemRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesOrderItemRepositoryV1->getSalesOrderItemRepositoryV1GetGet($id);
 
@@ -9967,8 +9967,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 28;
-$searchCriteriaCurrentPage = 28;
+$searchCriteriaPageSize = 214;
+$searchCriteriaCurrentPage = 214;
 
 $result = $salesOrderItemRepositoryV1->getSalesOrderItemRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -10017,7 +10017,7 @@ function getSalesInvoiceRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesInvoiceRepositoryV1->getSalesInvoiceRepositoryV1GetGet($id);
 
@@ -10072,8 +10072,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 28;
-$searchCriteriaCurrentPage = 28;
+$searchCriteriaPageSize = 214;
+$searchCriteriaCurrentPage = 214;
 
 $result = $salesInvoiceRepositoryV1->getSalesInvoiceRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -10159,7 +10159,7 @@ function getSalesInvoiceManagementV1GetCommentsListGet($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesInvoiceManagementV1->getSalesInvoiceManagementV1GetCommentsListGet($id);
 
@@ -10196,7 +10196,7 @@ function createSalesInvoiceManagementV1NotifyPost($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesInvoiceManagementV1->createSalesInvoiceManagementV1NotifyPost($id);
 
@@ -10233,7 +10233,7 @@ function createSalesInvoiceManagementV1SetVoidPost($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesInvoiceManagementV1->createSalesInvoiceManagementV1SetVoidPost($id);
 
@@ -10270,7 +10270,7 @@ function createSalesInvoiceManagementV1SetCapturePost($id)
 #### Example Usage
 
 ```php
-$id = 28;
+$id = 214;
 
 $result = $salesInvoiceManagementV1->createSalesInvoiceManagementV1SetCapturePost($id);
 
@@ -10372,7 +10372,7 @@ function createSalesRefundInvoiceV1ExecutePost(
 #### Example Usage
 
 ```php
-$invoiceId = 28;
+$invoiceId = 122;
 $salesRefundInvoiceV1ExecutePostBody = new SalesRefundInvoiceV1ExecutePostBody();
 
 $result = $salesRefundInvoiceV1->createSalesRefundInvoiceV1ExecutePost($invoiceId, $salesRefundInvoiceV1ExecutePostBody);
@@ -10422,7 +10422,7 @@ function getSalesCreditmemoManagementV1GetCommentsListGet($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesCreditmemoManagementV1->getSalesCreditmemoManagementV1GetCommentsListGet($id);
 
@@ -10459,7 +10459,7 @@ function updateSalesCreditmemoManagementV1CancelPut($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesCreditmemoManagementV1->updateSalesCreditmemoManagementV1CancelPut($id);
 
@@ -10497,7 +10497,7 @@ function createSalesCreditmemoManagementV1NotifyPost($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesCreditmemoManagementV1->createSalesCreditmemoManagementV1NotifyPost($id);
 
@@ -10583,7 +10583,7 @@ function getSalesCreditmemoRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesCreditmemoRepositoryV1->getSalesCreditmemoRepositoryV1GetGet($id);
 
@@ -10638,8 +10638,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 191;
-$searchCriteriaCurrentPage = 191;
+$searchCriteriaPageSize = 122;
+$searchCriteriaCurrentPage = 122;
 
 $result = $salesCreditmemoRepositoryV1->getSalesCreditmemoRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -10782,7 +10782,7 @@ function createSalesRefundOrderV1ExecutePost(
 #### Example Usage
 
 ```php
-$orderId = 191;
+$orderId = 122;
 $salesRefundOrderV1ExecutePostBody = new SalesRefundOrderV1ExecutePostBody();
 
 $result = $salesRefundOrderV1->createSalesRefundOrderV1ExecutePost($orderId, $salesRefundOrderV1ExecutePostBody);
@@ -10832,7 +10832,7 @@ function getSalesShipmentRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesShipmentRepositoryV1->getSalesShipmentRepositoryV1GetGet($id);
 
@@ -10887,8 +10887,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 191;
-$searchCriteriaCurrentPage = 191;
+$searchCriteriaPageSize = 122;
+$searchCriteriaCurrentPage = 122;
 
 $result = $salesShipmentRepositoryV1->getSalesShipmentRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -10974,7 +10974,7 @@ function getSalesShipmentManagementV1GetCommentsListGet($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesShipmentManagementV1->getSalesShipmentManagementV1GetCommentsListGet($id);
 
@@ -11011,7 +11011,7 @@ function createSalesShipmentManagementV1NotifyPost($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesShipmentManagementV1->createSalesShipmentManagementV1NotifyPost($id);
 
@@ -11048,7 +11048,7 @@ function getSalesShipmentManagementV1GetLabelGet($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 122;
 
 $result = $salesShipmentManagementV1->getSalesShipmentManagementV1GetLabelGet($id);
 
@@ -11189,7 +11189,7 @@ function deleteSalesShipmentTrackRepositoryV1DeleteByIdDelete($id)
 #### Example Usage
 
 ```php
-$id = 191;
+$id = 31;
 
 $result = $salesShipmentTrackRepositoryV1->deleteSalesShipmentTrackRepositoryV1DeleteByIdDelete($id);
 
@@ -11242,7 +11242,7 @@ function createSalesShipOrderV1ExecutePost(
 #### Example Usage
 
 ```php
-$orderId = 100;
+$orderId = 31;
 $salesShipOrderV1ExecutePostBody = new SalesShipOrderV1ExecutePostBody();
 
 $result = $salesShipOrderV1->createSalesShipOrderV1ExecutePost($orderId, $salesShipOrderV1ExecutePostBody);
@@ -11292,7 +11292,7 @@ function getSalesTransactionRepositoryV1GetGet($id)
 #### Example Usage
 
 ```php
-$id = 100;
+$id = 31;
 
 $result = $salesTransactionRepositoryV1->getSalesTransactionRepositoryV1GetGet($id);
 
@@ -11347,8 +11347,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 100;
-$searchCriteriaCurrentPage = 100;
+$searchCriteriaPageSize = 31;
+$searchCriteriaCurrentPage = 31;
 
 $result = $salesTransactionRepositoryV1->getSalesTransactionRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -11400,7 +11400,7 @@ function createSalesInvoiceOrderV1ExecutePost(
 #### Example Usage
 
 ```php
-$orderId = 100;
+$orderId = 31;
 $salesInvoiceOrderV1ExecutePostBody = new SalesInvoiceOrderV1ExecutePostBody();
 
 $result = $salesInvoiceOrderV1->createSalesInvoiceOrderV1ExecutePost($orderId, $salesInvoiceOrderV1ExecutePostBody);
@@ -11542,7 +11542,7 @@ function createCheckoutShippingInformationManagementV1SaveAddressInformationPost
 #### Example Usage
 
 ```php
-$cartId = 100;
+$cartId = 31;
 $checkoutShippingInformationManagementV1SaveAddressInformationPostBody = new CheckoutShippingInformationManagementV1SaveAddressInformationPostBody();
 
 $result = $checkoutShippingInformationManagementV1->createCheckoutShippingInformationManagementV1SaveAddressInformationPost1($cartId, $checkoutShippingInformationManagementV1SaveAddressInformationPostBody);
@@ -11595,7 +11595,7 @@ function createCheckoutTotalsInformationManagementV1CalculatePost(
 #### Example Usage
 
 ```php
-$cartId = 100;
+$cartId = 31;
 $checkoutTotalsInformationManagementV1CalculatePostBody = new CheckoutTotalsInformationManagementV1CalculatePostBody();
 
 $result = $checkoutTotalsInformationManagementV1->createCheckoutTotalsInformationManagementV1CalculatePost($cartId, $checkoutTotalsInformationManagementV1CalculatePostBody);
@@ -11986,7 +11986,7 @@ function createBundleProductLinkManagementV1AddChildByProductSkuPost(
 
 ```php
 $sku = 'sku';
-$optionId = 100;
+$optionId = 72;
 $bundleProductLinkManagementV1AddChildByProductSkuPostBody = new BundleProductLinkManagementV1AddChildByProductSkuPostBody();
 
 $result = $bundleProductLinkManagementV1->createBundleProductLinkManagementV1AddChildByProductSkuPost($sku, $optionId, $bundleProductLinkManagementV1AddChildByProductSkuPostBody);
@@ -12074,7 +12074,7 @@ function getBundleProductLinkManagementV1GetChildrenGet(
 
 ```php
 $productSku = 'productSku';
-$optionId = 100;
+$optionId = 72;
 
 $result = $bundleProductLinkManagementV1->getBundleProductLinkManagementV1GetChildrenGet($productSku, $optionId);
 
@@ -12118,7 +12118,7 @@ function deleteBundleProductLinkManagementV1RemoveChildDelete(
 
 ```php
 $sku = 'sku';
-$optionId = 141;
+$optionId = 72;
 $childSku = 'childSku';
 
 $result = $bundleProductLinkManagementV1->deleteBundleProductLinkManagementV1RemoveChildDelete($sku, $optionId, $childSku);
@@ -12211,7 +12211,7 @@ function getBundleProductOptionRepositoryV1GetGet(
 
 ```php
 $sku = 'sku';
-$optionId = 141;
+$optionId = 72;
 
 $result = $bundleProductOptionRepositoryV1->getBundleProductOptionRepositoryV1GetGet($sku, $optionId);
 
@@ -12253,7 +12253,7 @@ function deleteBundleProductOptionRepositoryV1DeleteByIdDelete(
 
 ```php
 $sku = 'sku';
-$optionId = 141;
+$optionId = 72;
 
 $result = $bundleProductOptionRepositoryV1->deleteBundleProductOptionRepositoryV1DeleteByIdDelete($sku, $optionId);
 
@@ -12660,7 +12660,7 @@ function getConfigurableProductOptionRepositoryV1GetGet(
 
 ```php
 $sku = 'sku';
-$id = 141;
+$id = 72;
 
 $result = $configurableProductOptionRepositoryV1->getConfigurableProductOptionRepositoryV1GetGet($sku, $id);
 
@@ -12748,7 +12748,7 @@ function deleteConfigurableProductOptionRepositoryV1DeleteByIdDelete(
 
 ```php
 $sku = 'sku';
-$id = 141;
+$id = 72;
 
 $result = $configurableProductOptionRepositoryV1->deleteConfigurableProductOptionRepositoryV1DeleteByIdDelete($sku, $id);
 
@@ -13529,7 +13529,7 @@ function deleteDownloadableLinkRepositoryV1DeleteDelete($id)
 #### Example Usage
 
 ```php
-$id = 50;
+$id = 144;
 
 $result = $downloadableLinkRepositoryV1->deleteDownloadableLinkRepositoryV1DeleteDelete($id);
 
@@ -13700,7 +13700,7 @@ function deleteDownloadableSampleRepositoryV1DeleteDelete($id)
 #### Example Usage
 
 ```php
-$id = 50;
+$id = 144;
 
 $result = $downloadableSampleRepositoryV1->deleteDownloadableSampleRepositoryV1DeleteDelete($id);
 
@@ -13749,7 +13749,7 @@ function getGiftMessageCartRepositoryV1GetGet($cartId)
 #### Example Usage
 
 ```php
-$cartId = 50;
+$cartId = 144;
 
 $result = $giftMessageCartRepositoryV1->getGiftMessageCartRepositoryV1GetGet($cartId);
 
@@ -13789,7 +13789,7 @@ function createGiftMessageCartRepositoryV1SavePost(
 #### Example Usage
 
 ```php
-$cartId = 50;
+$cartId = 144;
 $giftMessageCartRepositoryV1SavePostBody = new GiftMessageCartRepositoryV1SavePostBody();
 
 $result = $giftMessageCartRepositoryV1->createGiftMessageCartRepositoryV1SavePost($cartId, $giftMessageCartRepositoryV1SavePostBody);
@@ -13909,8 +13909,8 @@ function getGiftMessageItemRepositoryV1GetGet(
 #### Example Usage
 
 ```php
-$cartId = 50;
-$itemId = 50;
+$cartId = 144;
+$itemId = 144;
 
 $result = $giftMessageItemRepositoryV1->getGiftMessageItemRepositoryV1GetGet($cartId, $itemId);
 
@@ -13953,8 +13953,8 @@ function createGiftMessageItemRepositoryV1SavePost(
 #### Example Usage
 
 ```php
-$cartId = 213;
-$itemId = 213;
+$cartId = 144;
+$itemId = 144;
 $giftMessageItemRepositoryV1SavePostBody = new GiftMessageItemRepositoryV1SavePostBody();
 
 $result = $giftMessageItemRepositoryV1->createGiftMessageItemRepositoryV1SavePost($cartId, $itemId, $giftMessageItemRepositoryV1SavePostBody);
@@ -13993,7 +13993,7 @@ function getGiftMessageItemRepositoryV1GetGet1($itemId)
 #### Example Usage
 
 ```php
-$itemId = 213;
+$itemId = 144;
 
 $result = $giftMessageItemRepositoryV1->getGiftMessageItemRepositoryV1GetGet1($itemId);
 
@@ -14034,7 +14034,7 @@ function createGiftMessageItemRepositoryV1SavePost1(
 #### Example Usage
 
 ```php
-$itemId = 213;
+$itemId = 144;
 $giftMessageItemRepositoryV1SavePostBody = new GiftMessageItemRepositoryV1SavePostBody();
 
 $result = $giftMessageItemRepositoryV1->createGiftMessageItemRepositoryV1SavePost1($itemId, $giftMessageItemRepositoryV1SavePostBody);
@@ -14178,7 +14178,7 @@ function getGiftMessageGuestItemRepositoryV1GetGet(
 
 ```php
 $cartId = 'cartId';
-$itemId = 213;
+$itemId = 144;
 
 $result = $giftMessageGuestItemRepositoryV1->getGiftMessageGuestItemRepositoryV1GetGet($cartId, $itemId);
 
@@ -14221,7 +14221,7 @@ function createGiftMessageGuestItemRepositoryV1SavePost(
 
 ```php
 $cartId = 'cartId';
-$itemId = 213;
+$itemId = 144;
 $giftMessageGuestItemRepositoryV1SavePostBody = new GiftMessageGuestItemRepositoryV1SavePostBody();
 
 $result = $giftMessageGuestItemRepositoryV1->createGiftMessageGuestItemRepositoryV1SavePost($cartId, $itemId, $giftMessageGuestItemRepositoryV1SavePostBody);
@@ -14311,7 +14311,7 @@ function getSalesRuleRuleRepositoryV1GetByIdGet($ruleId)
 #### Example Usage
 
 ```php
-$ruleId = 213;
+$ruleId = 144;
 
 $result = $salesRuleRuleRepositoryV1->getSalesRuleRuleRepositoryV1GetByIdGet($ruleId);
 
@@ -14393,7 +14393,7 @@ function deleteSalesRuleRuleRepositoryV1DeleteByIdDelete($ruleId)
 #### Example Usage
 
 ```php
-$ruleId = 213;
+$ruleId = 144;
 
 $result = $salesRuleRuleRepositoryV1->deleteSalesRuleRuleRepositoryV1DeleteByIdDelete($ruleId);
 
@@ -14450,8 +14450,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 213;
-$searchCriteriaCurrentPage = 213;
+$searchCriteriaPageSize = 144;
+$searchCriteriaCurrentPage = 144;
 
 $result = $salesRuleRuleRepositoryV1->getSalesRuleRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -14540,7 +14540,7 @@ function getSalesRuleCouponRepositoryV1GetByIdGet($couponId)
 #### Example Usage
 
 ```php
-$couponId = 0;
+$couponId = 186;
 
 $result = $salesRuleCouponRepositoryV1->getSalesRuleCouponRepositoryV1GetByIdGet($couponId);
 
@@ -14622,7 +14622,7 @@ function deleteSalesRuleCouponRepositoryV1DeleteByIdDelete($couponId)
 #### Example Usage
 
 ```php
-$couponId = 0;
+$couponId = 186;
 
 $result = $salesRuleCouponRepositoryV1->deleteSalesRuleCouponRepositoryV1DeleteByIdDelete($couponId);
 
@@ -14679,8 +14679,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 0;
-$searchCriteriaCurrentPage = 0;
+$searchCriteriaPageSize = 186;
+$searchCriteriaCurrentPage = 186;
 
 $result = $salesRuleCouponRepositoryV1->getSalesRuleCouponRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -15106,7 +15106,7 @@ function getTaxTaxRateRepositoryV1GetGet($rateId)
 #### Example Usage
 
 ```php
-$rateId = 0;
+$rateId = 186;
 
 $result = $taxTaxRateRepositoryV1->getTaxTaxRateRepositoryV1GetGet($rateId);
 
@@ -15144,7 +15144,7 @@ function deleteTaxTaxRateRepositoryV1DeleteByIdDelete($rateId)
 #### Example Usage
 
 ```php
-$rateId = 0;
+$rateId = 186;
 
 $result = $taxTaxRateRepositoryV1->deleteTaxTaxRateRepositoryV1DeleteByIdDelete($rateId);
 
@@ -15201,8 +15201,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 0;
-$searchCriteriaCurrentPage = 0;
+$searchCriteriaPageSize = 95;
+$searchCriteriaCurrentPage = 95;
 
 $result = $taxTaxRateRepositoryV1->getTaxTaxRateRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -15330,7 +15330,7 @@ function getTaxTaxRuleRepositoryV1GetGet($ruleId)
 #### Example Usage
 
 ```php
-$ruleId = 0;
+$ruleId = 95;
 
 $result = $taxTaxRuleRepositoryV1->getTaxTaxRuleRepositoryV1GetGet($ruleId);
 
@@ -15367,7 +15367,7 @@ function deleteTaxTaxRuleRepositoryV1DeleteByIdDelete($ruleId)
 #### Example Usage
 
 ```php
-$ruleId = 163;
+$ruleId = 95;
 
 $result = $taxTaxRuleRepositoryV1->deleteTaxTaxRuleRepositoryV1DeleteByIdDelete($ruleId);
 
@@ -15424,8 +15424,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 163;
-$searchCriteriaCurrentPage = 163;
+$searchCriteriaPageSize = 95;
+$searchCriteriaCurrentPage = 95;
 
 $result = $taxTaxRuleRepositoryV1->getTaxTaxRuleRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -15514,7 +15514,7 @@ function getTaxTaxClassRepositoryV1GetGet($taxClassId)
 #### Example Usage
 
 ```php
-$taxClassId = 163;
+$taxClassId = 95;
 
 $result = $taxTaxClassRepositoryV1->getTaxTaxClassRepositoryV1GetGet($taxClassId);
 
@@ -15552,7 +15552,7 @@ function deleteTaxTaxClassRepositoryV1DeleteByIdDelete($taxClassId)
 #### Example Usage
 
 ```php
-$taxClassId = 163;
+$taxClassId = 95;
 
 $result = $taxTaxClassRepositoryV1->deleteTaxTaxClassRepositoryV1DeleteByIdDelete($taxClassId);
 
@@ -15651,8 +15651,8 @@ $searchCriteriaFilterGroupsFiltersValue = 'searchCriteria[filterGroups][][filter
 $searchCriteriaFilterGroupsFiltersConditionType = 'searchCriteria[filterGroups][][filters][][conditionType]';
 $searchCriteriaSortOrdersField = 'searchCriteria[sortOrders][][field]';
 $searchCriteriaSortOrdersDirection = 'searchCriteria[sortOrders][][direction]';
-$searchCriteriaPageSize = 163;
-$searchCriteriaCurrentPage = 163;
+$searchCriteriaPageSize = 95;
+$searchCriteriaCurrentPage = 95;
 
 $result = $taxTaxClassRepositoryV1->getTaxTaxClassRepositoryV1GetListGet($searchCriteriaFilterGroupsFiltersField, $searchCriteriaFilterGroupsFiltersValue, $searchCriteriaFilterGroupsFiltersConditionType, $searchCriteriaSortOrdersField, $searchCriteriaSortOrdersDirection, $searchCriteriaPageSize, $searchCriteriaCurrentPage);
 
@@ -16036,7 +16036,7 @@ function updateTemandoShippingRmaRmaShipmentManagementV1AssignShipmentIdsPut(
 #### Example Usage
 
 ```php
-$rmaId = 163;
+$rmaId = 136;
 $temandoShippingRmaRmaShipmentManagementV1AssignShipmentIdsPutBody = new TemandoShippingRmaRmaShipmentManagementV1AssignShipmentIdsPutBody();
 
 $result = $temandoShippingRmaRmaShipmentManagementV1->updateTemandoShippingRmaRmaShipmentManagementV1AssignShipmentIdsPut($rmaId, $temandoShippingRmaRmaShipmentManagementV1AssignShipmentIdsPutBody);
